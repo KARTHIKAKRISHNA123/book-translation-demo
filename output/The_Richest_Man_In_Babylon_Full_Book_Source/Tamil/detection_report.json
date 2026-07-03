@@ -1,0 +1,138 @@
+{
+  "boundaries_detected": 11,
+  "needs_review": 0,
+  "boundaries": [
+    {
+      "para_index": 271,
+      "title": "The Man Who Desired Gold",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 273,
+      "signals": [
+        "RUNNING_HEADER_FALLBACK",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 412,
+      "title": "The Richest Man in Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 414,
+      "signals": [
+        "RUNNING_HEADER_FALLBACK",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 553,
+      "title": "PART OF ALL YOU EARN Is YOURS TO KEEP Seven Cures for a Lean Purse",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 563,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 906,
+      "title": "Meet the Goddess of Good Luck",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 914,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 1108,
+      "title": "The Five Laws of Gold",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 1117,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 1410,
+      "title": "The Gold Lender of Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 1418,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 1680,
+      "title": "The Walls of Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 1689,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 1794,
+      "title": "The Camel Trader of Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 1802,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 2015,
+      "title": "The Clay Tablets from Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 2023,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 2271,
+      "title": "The Luckiest Man in Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "chapter",
+      "content_start": 2279,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    },
+    {
+      "para_index": 2589,
+      "title": "An Historical Sketch of Babylon",
+      "score": 2,
+      "confidence": "HIGH",
+      "section_type": "appendix",
+      "content_start": 2597,
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ]
+    }
+  ]
+}

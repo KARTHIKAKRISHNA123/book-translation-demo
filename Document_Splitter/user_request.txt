@@ -1,0 +1,121 @@
+<USER_REQUEST>
+# Universal Book Chapter Splitter
+
+Split any DOCX book into **one DOCX per chapter** while preserving formatting,
+images, tables, styles, headers/footers, and page settings.
+
+## How preservation works (the key idea)
+
+A `.docx` is a ZIP of XML parts. Instead of *rebuilding* a new document (which
+loses styles, fonts, media, headers), this engine **clones the entire original
+package per chapter and rewrites only `word/document.xml`**, keeping just that
+chapter's body blocks plus the preserved `sectPr` (page size, margins,
+header/footer references). Every other part — `styles.xml`, `numbering.xml`,
+`theme1.xml`, embedded fonts, `media/*`, headers/footers, `footnotes.xml` — is
+copied byte-for-byte. Result: near-perfect preservation, because nothing is
+reconstructed.
+
+## Install
+
+```bash
+pip install -r requirements.txt   # just lxml
+```
+
+## Usage
+
+```bash
+# Inspect the detection plan without writing files
+python -m book_splitter book.docx --dry-run
+
+# Split into per-chapter DOCX files (a sub-folder per book)
+python -m book_splitter book.docx --out chapters_out
+
+# Multiple books / globs, choose level, save a JSON report
+python -m book_splitter "*.docx" --out chapters_out --level chapter \
+    --report chapters_out/report.json
+
+# Optional offline LLM-fallback stub for low-confidence blocks
+python -m book_splitter book.docx --out chapters_out --llm heuristic
+
+# Prove formatting was preserved
+python -m book_splitter.verify book.docx chapters_out/book/
+```
+
+## CLI options
+
+| Flag | Meaning |
+|------|---------|
+| `inputs` | one or more `.docx` files or globs |
+| `--out` | output directory (a sub-folder per book) |
+| `--level {auto,part,chapter,section}` | split granularity |
+| `--llm {off,heuristic}` | optional fallback for REVIEW-band blocks |
+| `--report PATH` | write a JSON detection + manifest report |
+| `--dry-run` | detect and print the plan; write nothing |
+| `--verbose` | debug logging |
+
+## Layout
+
+```
+book_splitter/
+  docx_package.py   for
+<truncated 45215 bytes>
+... author-declared boundaries (toc.py)
+  L2  Style / outline level ... semantic heading styles (blocks.StyleResolver)
+  L3  Visual + text fallback .. relative font band, bold, keywords, roman, caps
+
+It also performs the two operations that make real books work:
+  * MERGE consecutive heading paragraphs into one boundary, so a title split
+    across lines ("The Man Who" / "Desired Gold") yields a single chapter.
+  * ABSTAIN: if it cannot find at least two confident boundaries it returns a
+    single-file passthrough plan instead of shredding the book.
+
+Output: a ChapterPlan = ordered list of Chapter(title, start, end, confidence).
+"""
+
+from __future__ import annotations
+import re
+from collections import Counter
+from dataclasses import dataclass, field
+
+from .blocks import StyleResolver, build_blocks, body_baseline_size
+from .scoring import score_block, ACCEPT, REVIEW
+from . import toc as toc_mod
+from .signals import _ROMAN, _CHAPTER_KW, _PART_KW
+
+W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+
+
+@dataclass
+class Chapter:
+    title: str
+    start: int                 # inclusive block-child index
+    end: int                   # exclusive
+    level: str = "chapter"
+    confidence: float = 1.0
+    fired: dict = field(default_factory=dict)
+
+
+@dataclass
+class ChapterPlan:
+    chapters: list
+    abstained: bool = False
+    reason: str = ""
+    diagnostics: dict = field(default_factory=dict)
+
+
+class _MergedView:
+    """A merged multi-paragraph heading presented to the scorer as one block."""
+    is_paragraph = True
+    is_table = False
+    is_empty = False
+
+    def __init__(self, members):
+        first = members[0]
+        self.index = first.index
+        self.members = members
+        self.text = " ".join(m.text for m in members if m.text).strip()
+        self.word_count = len(self.text.split())
+        self.style_id = next((m.style_id for m
+<truncated 40283 bytes>
+
+NOTE: The output was truncated because it was too long. Use a more targeted query or a smaller range to get the information you need.

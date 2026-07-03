@@ -1,0 +1,374 @@
+{
+  "book": "The Richest Man In Babylon_Full_Book_Source.docx",
+  "target_language": "Tamil",
+  "total_paragraphs": 2873,
+  "total_words": 48308,
+  "has_chapters": true,
+  "segments": [
+    {
+      "unit_id": "preamble-000",
+      "title": "Front Matter",
+      "section_type": "preamble",
+      "para_start": 0,
+      "para_end": 271,
+      "word_count": 1772,
+      "confidence": "CERTAIN",
+      "output_filename": "preamble-000-Front_Matter.docx",
+      "signals": [],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\preamble-000-Front_Matter.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter01",
+      "title": "The Man Who Desired Gold",
+      "section_type": "chapter",
+      "para_start": 271,
+      "para_end": 412,
+      "word_count": 2304,
+      "confidence": "HIGH",
+      "output_filename": "chapter01-The_Man_Who_Desired_Gold.docx",
+      "signals": [
+        "RUNNING_HEADER_FALLBACK",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter01-The_Man_Who_Desired_Gold.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter02_chunk01",
+      "title": "The Richest Man in Babylon (Part 1)",
+      "section_type": "chapter",
+      "para_start": 414,
+      "para_end": 521,
+      "word_count": 2588,
+      "confidence": "HIGH",
+      "output_filename": "chapter02_chunk01-The_Richest_Man_in_Babylon.docx",
+      "signals": [
+        "RUNNING_HEADER_FALLBACK",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter02_chunk01-The_Richest_Man_in_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter02_chunk02",
+      "title": "The Richest Man in Babylon (Part 2)",
+      "section_type": "chapter",
+      "para_start": 521,
+      "para_end": 553,
+      "word_count": 691,
+      "confidence": "HIGH",
+      "output_filename": "chapter02_chunk02-The_Richest_Man_in_Babylon.docx",
+      "signals": [
+        "RUNNING_HEADER_FALLBACK",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter02_chunk02-The_Richest_Man_in_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter03_chunk01",
+      "title": "PART OF ALL YOU EARN Is YOURS TO KEEP Seven Cures for a Lean Purse (Part 1)",
+      "section_type": "chapter",
+      "para_start": 563,
+      "para_end": 717,
+      "word_count": 2513,
+      "confidence": "HIGH",
+      "output_filename": "chapter03_chunk01-PART_OF_ALL_YOU_EARN_Is_YOURS_TO_KEEP_Se.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter03_chunk01-PART_OF_ALL_YOU_EARN_Is_YOURS_TO_KEEP_Se.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter03_chunk02",
+      "title": "PART OF ALL YOU EARN Is YOURS TO KEEP Seven Cures for a Lean Purse (Part 2)",
+      "section_type": "chapter",
+      "para_start": 717,
+      "para_end": 851,
+      "word_count": 2512,
+      "confidence": "HIGH",
+      "output_filename": "chapter03_chunk02-PART_OF_ALL_YOU_EARN_Is_YOURS_TO_KEEP_Se.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter03_chunk02-PART_OF_ALL_YOU_EARN_Is_YOURS_TO_KEEP_Se.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter03_chunk03",
+      "title": "PART OF ALL YOU EARN Is YOURS TO KEEP Seven Cures for a Lean Purse (Part 3)",
+      "section_type": "chapter",
+      "para_start": 851,
+      "para_end": 906,
+      "word_count": 1094,
+      "confidence": "HIGH",
+      "output_filename": "chapter03_chunk03-PART_OF_ALL_YOU_EARN_Is_YOURS_TO_KEEP_Se.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter03_chunk03-PART_OF_ALL_YOU_EARN_Is_YOURS_TO_KEEP_Se.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter04_chunk01",
+      "title": "Meet the Goddess of Good Luck (Part 1)",
+      "section_type": "chapter",
+      "para_start": 914,
+      "para_end": 1018,
+      "word_count": 2549,
+      "confidence": "HIGH",
+      "output_filename": "chapter04_chunk01-Meet_the_Goddess_of_Good_Luck.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter04_chunk01-Meet_the_Goddess_of_Good_Luck.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter04_chunk02",
+      "title": "Meet the Goddess of Good Luck (Part 2)",
+      "section_type": "chapter",
+      "para_start": 1018,
+      "para_end": 1108,
+      "word_count": 2226,
+      "confidence": "HIGH",
+      "output_filename": "chapter04_chunk02-Meet_the_Goddess_of_Good_Luck.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter04_chunk02-Meet_the_Goddess_of_Good_Luck.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter05_chunk01",
+      "title": "The Five Laws of Gold (Part 1)",
+      "section_type": "chapter",
+      "para_start": 1117,
+      "para_end": 1271,
+      "word_count": 2590,
+      "confidence": "HIGH",
+      "output_filename": "chapter05_chunk01-The_Five_Laws_of_Gold.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter05_chunk01-The_Five_Laws_of_Gold.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter05_chunk02",
+      "title": "The Five Laws of Gold (Part 2)",
+      "section_type": "chapter",
+      "para_start": 1271,
+      "para_end": 1410,
+      "word_count": 2069,
+      "confidence": "HIGH",
+      "output_filename": "chapter05_chunk02-The_Five_Laws_of_Gold.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter05_chunk02-The_Five_Laws_of_Gold.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter06_chunk01",
+      "title": "The Gold Lender of Babylon (Part 1)",
+      "section_type": "chapter",
+      "para_start": 1418,
+      "para_end": 1573,
+      "word_count": 2510,
+      "confidence": "HIGH",
+      "output_filename": "chapter06_chunk01-The_Gold_Lender_of_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter06_chunk01-The_Gold_Lender_of_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter06_chunk02",
+      "title": "The Gold Lender of Babylon (Part 2)",
+      "section_type": "chapter",
+      "para_start": 1573,
+      "para_end": 1680,
+      "word_count": 2033,
+      "confidence": "HIGH",
+      "output_filename": "chapter06_chunk02-The_Gold_Lender_of_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter06_chunk02-The_Gold_Lender_of_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter07",
+      "title": "The Walls of Babylon",
+      "section_type": "chapter",
+      "para_start": 1680,
+      "para_end": 1794,
+      "word_count": 1356,
+      "confidence": "HIGH",
+      "output_filename": "chapter07-The_Walls_of_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter07-The_Walls_of_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter08_chunk01",
+      "title": "The Camel Trader of Babylon (Part 1)",
+      "section_type": "chapter",
+      "para_start": 1802,
+      "para_end": 1948,
+      "word_count": 2534,
+      "confidence": "HIGH",
+      "output_filename": "chapter08_chunk01-The_Camel_Trader_of_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter08_chunk01-The_Camel_Trader_of_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter08_chunk02",
+      "title": "The Camel Trader of Babylon (Part 2)",
+      "section_type": "chapter",
+      "para_start": 1948,
+      "para_end": 2015,
+      "word_count": 1740,
+      "confidence": "HIGH",
+      "output_filename": "chapter08_chunk02-The_Camel_Trader_of_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter08_chunk02-The_Camel_Trader_of_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter09_chunk01",
+      "title": "The Clay Tablets from Babylon (Part 1)",
+      "section_type": "chapter",
+      "para_start": 2023,
+      "para_end": 2177,
+      "word_count": 2557,
+      "confidence": "HIGH",
+      "output_filename": "chapter09_chunk01-The_Clay_Tablets_from_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter09_chunk01-The_Clay_Tablets_from_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter09_chunk02",
+      "title": "The Clay Tablets from Babylon (Part 2)",
+      "section_type": "chapter",
+      "para_start": 2177,
+      "para_end": 2249,
+      "word_count": 2556,
+      "confidence": "HIGH",
+      "output_filename": "chapter09_chunk02-The_Clay_Tablets_from_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter09_chunk02-The_Clay_Tablets_from_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter09_chunk03",
+      "title": "The Clay Tablets from Babylon (Part 3)",
+      "section_type": "chapter",
+      "para_start": 2249,
+      "para_end": 2271,
+      "word_count": 948,
+      "confidence": "HIGH",
+      "output_filename": "chapter09_chunk03-The_Clay_Tablets_from_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter09_chunk03-The_Clay_Tablets_from_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter10_chunk01",
+      "title": "The Luckiest Man in Babylon (Part 1)",
+      "section_type": "chapter",
+      "para_start": 2279,
+      "para_end": 2428,
+      "word_count": 2514,
+      "confidence": "HIGH",
+      "output_filename": "chapter10_chunk01-The_Luckiest_Man_in_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter10_chunk01-The_Luckiest_Man_in_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter10_chunk02",
+      "title": "The Luckiest Man in Babylon (Part 2)",
+      "section_type": "chapter",
+      "para_start": 2428,
+      "para_end": 2531,
+      "word_count": 2577,
+      "confidence": "HIGH",
+      "output_filename": "chapter10_chunk02-The_Luckiest_Man_in_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter10_chunk02-The_Luckiest_Man_in_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "chapter10_chunk03",
+      "title": "The Luckiest Man in Babylon (Part 3)",
+      "section_type": "chapter",
+      "para_start": 2531,
+      "para_end": 2589,
+      "word_count": 1102,
+      "confidence": "HIGH",
+      "output_filename": "chapter10_chunk03-The_Luckiest_Man_in_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\chapter10_chunk03-The_Luckiest_Man_in_Babylon.docx",
+      "status": "PENDING"
+    },
+    {
+      "unit_id": "appendix-001",
+      "title": "An Historical Sketch of Babylon",
+      "section_type": "appendix",
+      "para_start": 2589,
+      "para_end": 2873,
+      "word_count": 2906,
+      "confidence": "HIGH",
+      "output_filename": "appendix-001-An_Historical_Sketch_of_Babylon.docx",
+      "signals": [
+        "VISUAL_PATTERN",
+        "TOC_MATCH"
+      ],
+      "source_path": "output\\The_Richest_Man_In_Babylon_Full_Book_Source\\Tamil\\source\\appendix-001-An_Historical_Sketch_of_Babylon.docx",
+      "status": "PENDING"
+    }
+  ]
+}
